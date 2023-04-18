@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/edt_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter ID Number"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="581dp" />
+</RelativeLayout>

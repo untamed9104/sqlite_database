@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sqlite_app</string>
+
+    <string>Enter Name</string>
+    <string>Enter Email</string>
+    <string>Enter ID</string>
+    <string>save</string>
+    <string>View</string>
+    <string>delete</string>
+
+
+
+
+
+
+</resources>
